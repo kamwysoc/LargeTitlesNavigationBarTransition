@@ -4,7 +4,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "ViewController"
+        title = "Transparent NavBar"
         view.backgroundColor = .blue
         self.navigationController?.navigationBar.prefersLargeTitles = true
     }

@@ -2,7 +2,7 @@ import UIKit
 
 extension UINavigationBar {
 
-    func setupNavigationBar() {
+    func redNavigationBar() {
         setBackgroundImage(nil, for: .default)
         shadowImage = nil
 

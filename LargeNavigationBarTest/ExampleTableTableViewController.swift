@@ -5,15 +5,14 @@ class ExampleTableTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "reuseID")
-        navigationController?.navigationBar.setupNavigationBar()
-        title = "TableView"
+        navigationController?.navigationBar.redNavigationBar()
+        title = "Red NavBar"
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         view.backgroundColor = .yellow
-        navigationController?.navigationBar.setupNavigationBar()
-
+        navigationController?.navigationBar.redNavigationBar()
     }
 }
 
